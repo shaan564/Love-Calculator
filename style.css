@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("g.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:calc(8);
+}
+h1{
+    color:darkred;
+}
+
+#content-box {
+    width: 400px;
+    height: 550px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+    color:darkred;
+    
+}
+
+#calculate {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 11px;
+    background-color:pink;
+    color:darkred;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-radius: 11px;
+}
+
+#result-percentage {
+    font-size: 50px;
+}
+#your-name,#crush-name{
+    border:none;
+    padding:8px;
+    border-bottom:1px solid #ccc;
+    width:80%;
+    
+    font-size:17px;
+    outline:none;
+    padding-left:3px;
+    color:darkred;
+}
+#crush-name{
+    margin-bottom: 31px;
+}
+#your-name{
+    margin-bottom: 11px;
+}
